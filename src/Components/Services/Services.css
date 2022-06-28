@@ -1,0 +1,163 @@
+.services{
+    /* padding-top: 3rems; */
+    display: flex;
+    height: 100vh;
+    margin-top: 7rem;
+}
+.left-services{
+    display: flex;
+    flex-direction: column;
+}
+.left-services>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.left-services>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.left-services>:nth-child(3){
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: 12px;
+    color: var(--gray);
+}
+.cv-btn{
+    width: 3rem;
+    margin-top: 3rem;
+}
+.right-services{
+    position: relative;
+}
+.right-services>*{
+    position: absolute;
+}
+.card{
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.281);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+    /* overflow: auto; */
+}
+.card span:nth-of-type(2){
+    color: var(--gray);
+    font-size: 16px;
+}
+.card>img{
+    transform: scale(0.7);
+    /* margin-bottom: -2rem; */
+    margin-top: 12px;
+}
+.card-btn{
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.089);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--orange);
+    /* text-transform: uppercase; */
+    /* font-family: monospace; */
+}
+.react-icon{
+    transform: scale(0.8);
+    animation: spin 5000ms infinite linear;
+}
+.reverse-spin{
+    transform: scale(0.8);
+    animation: spin2 5000ms infinite linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@keyframes spin2 {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
+.service-float{
+    animation: service 1s;
+}
+@keyframes service{
+    0%{
+        left: 2rem;
+       }
+       100%{
+           left: 20rem;
+       }
+}
+.service-float2{
+    animation: service2 1s;
+}
+@keyframes service2{
+    0%{
+        left: 23rem;
+       }
+       100%{
+           left: 2rem;
+       }
+}
+.service-float3{
+    animation: service3 1s;
+}
+@keyframes service3{
+    0%{
+        left: 2rem;
+       }
+       100%{
+           left: 23rem;
+       }
+}
+
+
+/*  ------------------- Media - Query ------------------------------------------ */
+
+@media screen and (max-width: 912px) {
+    .services {
+      margin-top: 0;
+      flex-direction: column;
+      gap: 5rem;
+      height: 100rem;
+      padding: 0;
+    }
+    .card{
+        width: auto;
+        left: 0rem !important;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        height: 17rem;
+        margin: 2rem;
+    }
+    .card-android{
+        top: 0rem !important;
+    }
+    .card-web{
+        top: 25rem !important;
+    }
+    .card-ui{
+        top: 50rem !important;
+    }
+    .card > * {
+      position: static;
+    }
+  }

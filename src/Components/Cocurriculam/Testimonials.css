@@ -1,0 +1,76 @@
+.testimonials{
+    padding: 0 3rem 0 3rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.heading-test{
+    align-self: center;
+}
+.heading-test>*{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.heading-test span:nth-of-type(2){
+    color: var(--orange);
+}
+.slider-test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 30rem;
+    height: 12rem;
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 20px;
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    cursor: pointer;
+}
+.slider-test>img{
+    width: 10rem;
+    height: 9rem;
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+.slider-test>:nth-child(1){
+    margin-bottom: 1rem;
+}
+.slider-test>span{
+    color: grey;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif !important;
+}
+.testimonials .swiper{
+    width: 100%;
+    height: 70%;
+}
+.testimonials .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials .swiper-pagination-bullet-active{
+    background: var(--orange);
+}
+
+/*  -------------- Media- Query ------------------- */
+
+@media screen and (max-width: 820px){
+    .testimonials{
+        padding: 0;
+    }
+    .testimonials>img{
+        width: 70px;
+        height: 70px;
+    }
+    .slider-test{
+        height: 16rem;
+    }
+  }
