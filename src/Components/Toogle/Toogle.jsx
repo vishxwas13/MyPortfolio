@@ -10,7 +10,7 @@ function Toogle(props) {
         props.getProp(Theme)
     }
   return (
-    <div className="toogle hire-me" onClick={clickEvent} data-aos="flip-down">
+    <div className="toogle hire-me" onClick={clickEvent}>
         <Sun/>
         <Moon/>
         <div className="toogle-btn" style={{left: Theme? '5px': '2rem',transition: 'left 0.6s'}}></div>

@@ -1,4 +1,4 @@
-/* @import url(//db.onlinewebfonts.com/c/00561b492d88a5287a5def1e83a34882?family=Gumela); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root
 {
   --yellow: #F5C32C;
@@ -13,21 +13,21 @@
     --skyBlue: #1989e1;
     --blackShadow:0px 19px 60px rgb(255 255 255 / 20%)
 }
-/* *{
-  font-family: 'Gumela','Exo 2', sans-serif !important;
+*{
+  font-family: 'Montserrat' ,'Open Sans','Exo 2', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 20px;
+}
+/* @font-face {
+  font-family: 'Gumela';
+  src: url("../src/fonts/MyFont.otf");
+  font-display: swap; 
+} */
+/* * {
+  font-family: 'Gumela';
   font-weight: normal;
   font-size: 20px;
 } */
-@font-face {
-  font-family: Gumela;
-  src: url("../src/fonts/MyFont.otf");
-  font-display: swap; 
-}
-* {
-  font-family: Gumela;
-  font-weight: normal;
-  font-size: 20px;
-}
 .App{
     padding: 0.5rem 3.5rem;
     overflow: hidden;
