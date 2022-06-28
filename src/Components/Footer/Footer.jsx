@@ -16,7 +16,7 @@ function Footer() {
         </div> */}
         <span> <a href="mailto:vishwassharma332@gmail.com?" data-aos="zoom-in"> 📩 : vishwassharma332@gmail.com </a></span>
             <p className="copyright">
-                Copyright &copy; 2022 by Vishwas Sharma.&nbsp;All rights reserved.
+                Copyright &copy; 2022.&nbsp;All rights reserved.
             </p>
         </div>
     </div>
