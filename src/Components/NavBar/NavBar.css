@@ -39,6 +39,9 @@
     width: max-content;
     z-index: 9;
 }
+li{
+    width: max-content;
+}
 
 /*  ------------------- Media - Query ------------------------------------------ */
 

@@ -28,7 +28,7 @@ function NavBar(props) {
                     <li>Projects</li>
                     </Link>
                     <Link spy={true} to='Testimonials' smooth={true}>
-                    <li>Curriculam</li>
+                    <li>About me</li>
                     </Link>
                 </ul>
             </div>
