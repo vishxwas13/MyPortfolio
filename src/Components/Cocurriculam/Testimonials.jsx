@@ -7,7 +7,7 @@ import sih from '../../img/myimg.jpg'
 import astro from '../../img/astro.jpg'
 import swim from '../../img/swim.jpg'
 import piano from '../../img/piano.jpg'
-import taj from '../../img/taj2.jpeg'
+import taj from '../../img/taj2.jpg'
 import { EffectCube, Pagination } from 'swiper'
 import "swiper/css/effect-cube";
 

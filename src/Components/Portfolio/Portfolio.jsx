@@ -1,6 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
-import Isro from '../../img/isro.jpeg'
+import Isro from '../../img/isro.jpg'
 import Able from '../../img/able.jpg'
 import Ks from '../../img/ks.png'
 import Uber from '../../img/uber.png'
@@ -17,7 +17,7 @@ function Portfolio(props) {
         <span>My Projects</span>
         <span>Source code</span>
    <Swiper  modules={[Pagination]}
-    autoplay={{ delay: 2500, disableOnInteraction: false}}
+    autoplay={{ delay: 2000, disableOnInteraction: true}}
    slidesPerView={1}
    spaceBetween={80}
      grabCursor={true} 
@@ -32,7 +32,7 @@ function Portfolio(props) {
       },
       1024: {
         slidesPerView: 2,
-        spaceBetween: 30,
+        // spaceBetween: 30,
       },
     }}
      loop='true' data-aos="zoom-out">
