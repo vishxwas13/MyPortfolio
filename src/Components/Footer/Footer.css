@@ -3,6 +3,7 @@
     align-items: center ;
     margin: 0rem -3.5rem;
     position: relative;
+    z-index: -1;
 }
 .footer-child{
     position: absolute;
