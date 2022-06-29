@@ -1,7 +1,6 @@
 # MyPortfolio using ReactJS
-www.vishxwas.com
 https://www.vishxwas.com
-https://vishxwas.com
+
 
 # Getting Started with Create React App
 
