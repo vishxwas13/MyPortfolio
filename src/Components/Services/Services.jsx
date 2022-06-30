@@ -15,7 +15,7 @@ function Services(props) {
             <span style={{color: props.currTheme? 'var(--gray)':'grey'}} data-aos="slide-up" > I have hands-on-experience with these technolgies,
                 <br/> Along with some very descent projects.
             </span>
-            <a href="https://www.linkedin.com/in/vishwas-sharma-b88433203/" download><button className="cv-btn hire-me" data-aos="flip-up">Open LinkedIn 🔥</button> </a>
+            <a href="https://www.linkedin.com/in/vishwas-sharma-b88433203/" target="_blank"><button className="cv-btn hire-me" data-aos="flip-up">Open LinkedIn 🔥</button> </a>
        </div>
        <div className="right-services">
          <div className="card card-android" data-aos="slide-left" style={{left:'23rem',top:'-2rem',boxShadow: props.currTheme? 'var(--blackShadow)': 'inset'}}>

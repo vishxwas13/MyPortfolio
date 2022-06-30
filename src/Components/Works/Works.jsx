@@ -14,7 +14,7 @@ function Works(props) {
             <span style={{color: props.currTheme? 'var(--gray)':'grey'}} data-aos="slide-up"> Got learning experience from reputated companies/brands
                 <br/> in various technolgies like cloud, IOT, Android, azure , DSA .
             </span>
-           <a href="../../img/Vishwas's-Resume.pdf" download><button className="cv-btn" data-aos="flip-right">Download CV</button> </a>
+           <a href="https://drive.google.com/file/d/1Rpglg9Cc1DSYAgj_vEociwRwfstlv8c6/view?usp=sharing" target="_blank"><button className="cv-btn" data-aos="flip-right">Download CV</button> </a>
        </div>
        <div className="right-works" data-aos="zoom-in">
            <div className="main-circle react-icon" style={{boxShadow: props.currTheme? 'var(--blackShadow)': 'var(--boxShadow)'}}>
