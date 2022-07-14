@@ -42,7 +42,15 @@ textarea{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
+.whatsapp-icon{
+    transform: scale(0.4);
+    margin-top: -0.9rem;
+    margin-right: -1rem;
+}
+.wp{
+    height: 2.8rem;
+    display: flex;
+}
 
 /*  ------ Media-Wuery ------------- */
 

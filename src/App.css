@@ -61,7 +61,14 @@ button:hover{
   .App {
     padding: 0.5rem 1rem;
   }
+
 }
+@media screen and (max-width: 413px) {
+  body{
+    zoom: 90%;
+  }
+}
+
 
 
 

@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 :root {
-    --neon-text-color: #f40;
+    --neon-text-color: rgb(255, 81, 0);
     --neon-border-color: #08f;
   }
 .portfolio{
@@ -44,7 +44,7 @@
     background: var(--orange);
 }
 .portfolio p{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     width: 28rem;
     margin-top: -1.2rem;
@@ -57,10 +57,27 @@
     border: 0.1rem solid #fff;
     border-radius: 2rem;
     animation: flicker 2s infinite alternate;
+    text-shadow:
+              -0.2rem -0.2rem 1rem rgb(207, 206, 206),
+              0.2rem 0.2rem 1rem #fff,
+              0 0 0.2rem var(--neon-text-color),
+              0 0 0.4rem var(--neon-text-color),
+              0 0 0.6rem var(--neon-text-color),
+              0 0 0.2rem var(--neon-text-color),
+              0 0 1rem var(--neon-text-color)
+              ;
+          
+          box-shadow:
+              0 0 .5rem #fff,
+              inset 0 0 .5rem #fff,
+              0 0 0.2rem var(--neon-border-color),
+              inset 0 0 0.2rem var(--neon-border-color),
+              0 0 0.4rem var(--neon-border-color),
+              inset 0 0 0.4rem var(--neon-border-color); 
   }
   
   /* Animate neon flicker */
-  @keyframes flicker {
+  /* @keyframes flicker {
       
       0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
         
@@ -86,7 +103,7 @@
           text-shadow: none;
           box-shadow: none;
       }    
-  }
+  } */
 
     /*                        Finished                     */
 

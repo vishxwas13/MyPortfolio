@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import './Contact.css'
+import whatsapp from '../../img/whatsapp-icon.png'
 // import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 function Contact(props) {
@@ -28,10 +29,10 @@ function Contact(props) {
       <div className="left-services">
             <span style={{color: props.currTheme? 'revert': 'black'}} data-aos="slide-up"> Impressed ? </span>
             <span data-aos="slide-up" style={{fontSize: '2.5rem'}}>Get in touch !</span>
-            <span style={{color: props.currTheme? 'var(--gray)':'grey'}} data-aos="slide-up"> If my profile looks great to you, please out fill this form 😊
-                <br/> I have a surprise waiting for you 🙈 💕.
+            <span style={{color: props.currTheme? 'var(--gray)':'grey'}} data-aos="slide-up"> If my profile looks great to you, please out fill this form.
+            <br/> Let's Start a Conversation 😊.
             </span>
-           <a href="tel:8279510767"><button className="cv-btn hire-me" data-aos="flip-up">Call me now</button> </a>
+           <a href="https://wa.me/+918279510767/?text=Hello, I am your_name, from place/organization, your_message"><button className="cv-btn hire-me wp" data-aos="flip-up">WhatsApp <img src={whatsapp} alt="" className='whatsapp-icon'/></button> </a>
        </div>
        <div className="right-contact" data-aos="zoom-in">
          <form ref={form} onSubmit={sendEmail}>
