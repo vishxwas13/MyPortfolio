@@ -266,3 +266,8 @@
         transform: scale(0.7);
       }
   }
+  @media screen and (max-width: 413px) {
+    .intro{
+      zoom: 90%;
+    }
+  }

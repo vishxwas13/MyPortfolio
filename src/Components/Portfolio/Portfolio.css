@@ -126,7 +126,7 @@
 
 @media screen and (max-width: 400px) {
 .portfolio .swiper{
-    width: 370px;
+    /* width: 370px; */
 }
 .portfolio p{
     width: 17rem;
@@ -135,3 +135,9 @@
     width: 17rem;
 }
 }
+
+@media screen and (max-width: 413px) {
+    .portfolio>.portfolio-slider{
+      zoom: 90%;
+    }
+  }

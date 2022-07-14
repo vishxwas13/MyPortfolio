@@ -3,6 +3,7 @@ import  './Services.css'
 import heart from '../../img/android.png'
 import react from '../../img/react.png'
 import humble from '../../img/figma-icon.png'
+import linkedinIcon from '../../img/linkedin-icon.png'
 
 function Services(props) {
   return (
@@ -15,7 +16,7 @@ function Services(props) {
             <span style={{color: props.currTheme? 'var(--gray)':'grey'}} data-aos="slide-up" > I have hands-on-experience with these technolgies,
                 <br/> Along with some very descent projects.
             </span>
-            <a href="https://www.linkedin.com/in/vishwas-sharma-b88433203/" target="_blank"><button className="cv-btn hire-me" data-aos="flip-up">Open LinkedIn 🔥</button> </a>
+            <a href="https://www.linkedin.com/in/vishwas-sharma-b88433203/" target="_blank"><button className="cv-btn hire-me wp" data-aos="flip-up">Open Linked<img src={linkedinIcon} alt="" className='whatsapp-icon wp2'/></button></a>
        </div>
        <div className="right-services">
          <div className="card card-android" data-aos="slide-left" style={{left:'23rem',top:'-2rem',boxShadow: props.currTheme? 'var(--blackShadow)': 'inset'}}>
@@ -34,7 +35,7 @@ function Services(props) {
            <img src={humble} alt=""/>
            <span>UI/UX Designing</span>
            <span style={{color: props.currTheme? 'var(--gray)':'grey'}}>Figma, Adobe Photoshop, ReactJS.</span>
-           <a href="https://www.figma.com/@vishxwas" target="_blank"><button className="card-btn">Portfolio 🤌</button> </a>
+           <a href="https://www.figma.com/@vishxwas" target="_blank"><button className="card-btn">Portfolio ✨</button> </a>
          </div>
        </div>
    </div>

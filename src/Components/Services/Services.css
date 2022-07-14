@@ -161,3 +161,8 @@
       position: static;
     }
   }
+  @media screen and (max-width: 413px) {
+    .card-android{
+        padding: 0px 26px 3rem 26px;
+    }
+  }

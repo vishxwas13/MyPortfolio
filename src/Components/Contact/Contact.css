@@ -51,6 +51,11 @@ textarea{
     height: 2.8rem;
     display: flex;
 }
+.wp2{
+    margin-left: -1rem;
+    transform: scale(0.39);
+    font-weight: 900;
+}
 
 /*  ------ Media-Wuery ------------- */
 
@@ -66,3 +71,9 @@ textarea{
     }
 
 }  
+
+@media screen and (max-width: 413px) {
+    .left-services{
+      zoom: 95%;
+    }
+  }
