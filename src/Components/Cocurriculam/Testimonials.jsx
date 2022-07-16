@@ -15,7 +15,7 @@ function Testimonials(props) {
     const arrayTest = [
         {
             img: sih,
-            text: "Participating in Smart India Hackathon 2022 organised by Government of India for solving real-world problem's solution with price worth 1 Lacs. Top 5 teams under selection process. "
+            text: "Smart India Hackathon 2022, Finalist as a Team Lead, organised by Government of India for solving real-world problem's solution with price worth 1 Lacs. Top 5 teams under selection process. "
         },{
             img: taj,
             text: "Acting and Dancing skills since birth, Winner of Taj Mahotsav 2017 in Dance/Act, Taj Mahotsav is an annual 10-day event at Shilpgram in Agra, India."
