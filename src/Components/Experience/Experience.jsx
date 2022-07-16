@@ -10,7 +10,7 @@ function Experience(props) {
                 background: props.currTheme? '#242D49' : 'white',
                 // border: props.currTheme? '7px solid var(--blueCard)':'revert',
                 cursor: 'pointer'
-                }}>200+</div>
+                }}>220+</div>
             <span>DSA</span>
             <span>LeetCode</span>
         </div>
