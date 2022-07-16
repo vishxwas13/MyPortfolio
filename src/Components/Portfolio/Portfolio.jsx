@@ -19,16 +19,16 @@ function Portfolio(props) {
    <Swiper  modules={[Pagination]}
     autoplay={{ delay: 2000, disableOnInteraction: true}}
    slidesPerView={1}
-   spaceBetween={80}
+   spaceBetween={190}
      grabCursor={true} 
     className='portfolio-slider'
     pagination={{
       clickable: true,
     }}
     breakpoints={{
-      768: {
+      416: {
         slidesPerView: 1,
-        // spaceBetween: 100,
+        spaceBetween: 80,
       },
       1024: {
         slidesPerView: 2,
@@ -38,7 +38,9 @@ function Portfolio(props) {
      loop='true' data-aos="zoom-out">
             <SwiperSlide>
             <a href="http://ks-fitness-world.c1.biz/" target="_blank">
-            <span> <p>   <img src={Ks} alt="" style={{boxShadow: props.currTheme? 'var(--blackShadow)': 'var(--boxShadow)'}}/><br/> A commercial website which I made for a fitness club gym located in Agra city. Freelance Project for better Client engagement skills.</p></span> 
+            <span> 
+              <p>   <img src={Ks} alt="" style={{boxShadow: props.currTheme? 'var(--blackShadow)': 'var(--boxShadow)'}}/><br/> A commercial website which I made for a fitness club gym located in Agra city. Freelance Project for better Client engagement skills.</p>
+              </span> 
             </a>
             </SwiperSlide>
             <SwiperSlide>

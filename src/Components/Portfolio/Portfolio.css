@@ -29,7 +29,7 @@
     width: 107%;
 }
 .portfolio-slider .swiper-slide{
-    width: 20rem;
+    width: auto !important;
 }
 .portfolio img{
     width: 28rem;

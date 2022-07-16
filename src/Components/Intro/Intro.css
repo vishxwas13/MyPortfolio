@@ -69,7 +69,7 @@
 }
 .right-intro>*{
     position: absolute;
-    /* z-index: 1; */
+    z-index: -1;
 }
 .right-intro>:nth-child(1){
     transform: scale(0.74);
