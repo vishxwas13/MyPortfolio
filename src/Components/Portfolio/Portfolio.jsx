@@ -19,7 +19,7 @@ function Portfolio(props) {
    <Swiper  modules={[Pagination]}
     autoplay={{ delay: 2000, disableOnInteraction: true}}
    slidesPerView={1}
-   spaceBetween={190}
+   spaceBetween={100}
      grabCursor={true} 
     className='portfolio-slider'
     pagination={{
@@ -28,11 +28,11 @@ function Portfolio(props) {
     breakpoints={{
       416: {
         slidesPerView: 1,
-        spaceBetween: 80,
+        // spaceBetween: 100,
       },
       1024: {
         slidesPerView: 2,
-        // spaceBetween: 30,
+        spaceBetween: 180,
       },
     }}
      loop='true' data-aos="zoom-out">
