@@ -65,7 +65,6 @@
     position: relative;
     flex: 1;
     margin-right: -5rem;
-    /* z-index: -1; */
 }
 .right-intro>*{
     position: absolute;

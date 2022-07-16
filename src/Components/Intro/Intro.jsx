@@ -26,13 +26,13 @@ function Intro(props) {
                  <a href="https://github.com/vishxwas13" target='_blank'><img src={Github} alt=""/></a>
                  <a href="https://www.linkedin.com/in/vishwas-sharma-b88433203/" target="_blank"><img src={LinkedIn} alt=""/></a>
                  <a href="https://www.instagram.com/vishxwas.13/" target='_blank'><img src={Instagram} alt=""/></a>
-               </div>
+               </div>  
       </div>
       <div className="right-intro">
-          <img src={Vector1} alt=""/>
-          <img src={Vector2} alt="" />
-          <img src={boy} alt="" />
-          <img style={{left:'-20%'}} src={glassesimoji} alt=""/>
+          <img src={Vector1} alt="" style={{zIndex: props.currTheme? '0':'-1' }}/>
+          <img src={Vector2} alt="" style={{zIndex: props.currTheme? '0':'-1' }} />
+          <img src={boy} alt="" style={{zIndex: props.currTheme? '0':'-1' }} />
+          <img style={{zIndex: props.currTheme? '0':'-1',left:'-20%'}} src={glassesimoji} alt=""/>
       </div>
       <div className="floating-div figma-float java-intro"  style={{position:'absolute',left:'80%'}} >
         <img src={thumbup} alt=""/>
