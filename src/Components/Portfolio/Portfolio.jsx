@@ -19,7 +19,7 @@ function Portfolio(props) {
    <Swiper  modules={[Pagination]}
     autoplay={{ delay: 2000, disableOnInteraction: true}}
    slidesPerView={1}
-   spaceBetween={100}
+   spaceBetween={80}
      grabCursor={true} 
     className='portfolio-slider'
     pagination={{
