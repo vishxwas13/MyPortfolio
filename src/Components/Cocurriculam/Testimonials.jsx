@@ -22,7 +22,7 @@ function Testimonials(props) {
 
         },{
             img: swim,
-            text: "I am a person with Thalassophobia, To overcome this I learned swimming two years ago. POV: I still have Thalassophobia"
+            text: "I am a person with Thalassophobia, To overcome this I learned swimming two years ago. PS: I still have Thalassophobia"
 
         }  
         ,{
