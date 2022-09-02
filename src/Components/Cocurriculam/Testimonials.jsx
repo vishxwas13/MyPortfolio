@@ -3,7 +3,7 @@ import './Testimonials.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import sih from '../../img/myimg.jpg'
+import sih from '../../img/myimg2.jpg'
 import astro from '../../img/astro.jpg'
 import swim from '../../img/swim.jpg'
 import piano from '../../img/piano.jpg'
@@ -15,7 +15,7 @@ function Testimonials(props) {
     const arrayTest = [
         {
             img: sih,
-            text: "Smart India Hackathon 2022, Finalist as a Team Lead, organised by Government of India for solving real-world problem's solution with price worth 1 Lacs. Top 5 teams under selection process. "
+            text: "Winner of Smart India Hackathon 2022 as a Team Leader and recieved 1 lakh cash reward from AICTE and Ministry of Education, organised by Government of India for solving real-world problem's solution."
         },{
             img: taj,
             text: "Acting and Dancing skills since birth, Winner of Taj Mahotsav 2017 in Dance/Act, Taj Mahotsav is an annual 10-day event at Shilpgram in Agra, India."

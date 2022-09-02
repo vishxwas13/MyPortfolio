@@ -10,7 +10,7 @@ import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
 import scaler from '../../img/scaler.png'
-import figma from '../../img/figma-icon.png'
+import figma from '../../img/figma-icon2.png'
 function Intro(props) {
   return (
     <div className="intro">
@@ -19,7 +19,7 @@ function Intro(props) {
               <span style={{color: props.currTheme? 'white':'revert'}}>Hy! I Am</span>
                <span>Vishwas Sharma</span>
           </div>
-               <span style={{color: props.currTheme? 'var(--gray)':'grey'}} data-aos="zoom-in">A High Potential Programmer and Developer with an excellent problem-solving and Oratory skills.</span>
+               <span style={{color: props.currTheme? 'var(--gray)':'grey'}} data-aos="zoom-in">A High Potential Programmer and Developer with an excellent problem-solving and Oratory skills. </span>
                
                <a href="https://drive.google.com/file/d/1Rpglg9Cc1DSYAgj_vEociwRwfstlv8c6/view?usp=sharing" target="_blank"><button className="hire-me" data-aos="flip-up">Hire me</button></a>
                <div className="intro-icons">
@@ -42,10 +42,12 @@ function Intro(props) {
         <img src={scaler} alt=""/>
         <span style={{color: props.currTheme? 'black':'revert'}}>TCW Intern <br/> at Scaler</span>
       </div>
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:6970333836551303168/" target='blank_'>
       <div className="floating-div figma-float" id='figma' style={{position:'absolute',top:'80%',left:'80%'}}>
         <img src={figma} alt=""/>
-        <span style={{color: props.currTheme? 'black':'revert'}}> UI/UX <br/> Designer</span>
+        <span style={{color: props.currTheme? 'black':'revert'}}> SIH' 2022 <br/>Winner</span>
       </div>
+      </a>
       <div className="blur"></div>
       <div className="blur" style={{background:'#a7e4f0',top:'70%',left:'10%'}}></div>
     </div>

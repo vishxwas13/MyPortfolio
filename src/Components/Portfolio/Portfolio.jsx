@@ -55,12 +55,12 @@ function Portfolio(props) {
              <img src={Uber} style={{boxShadow: props.currTheme? 'var(--blackShadow)': 'var(--boxShadow)'}}/> Redesigned the Uber and StarBucks website with more imressive features using figma and photoshop. Follow for more aesthetic designs on figma.</p></span>
              </a>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
             <a href="https://sih.gov.in/" target="_blank">
             <span> <p> 
               <img src={Isro} alt="" style={{boxShadow: props.currTheme? 'var(--blackShadow)': 'var(--boxShadow)'}}/> <br/> Creating History by Introducing Asteroid Mining in India. ISRO Project 'Mission Kalam' for discovering new Objects using image and feature extraction in SIH 2022.</p></span>
             </a>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
             <a href="https://github.com/vishxwas13/BharatIndia/" target="_blank">
             <span> <p>
