@@ -21,7 +21,7 @@ function Intro(props) {
           </div>
                <span style={{color: props.currTheme? 'var(--gray)':'grey'}} data-aos="zoom-in">A High Potential Programmer and Developer with an excellent problem-solving and Oratory skills. </span>
                
-               <a href="https://drive.google.com/file/d/1Rpglg9Cc1DSYAgj_vEociwRwfstlv8c6/view?usp=sharing" target="_blank"><button className="hire-me" data-aos="flip-up">Hire me</button></a>
+               <a href="https://drive.google.com/file/d/1BtRLMBF_MALEPDYib48TwaLMi2Kc09MD/view?usp=sharing" target="_blank"><button className="hire-me" data-aos="flip-up">Hire me</button></a>
                <div className="intro-icons">
                  <a href="https://github.com/vishxwas13" target='_blank'><img src={Github} alt=""/></a>
                  <a href="https://www.linkedin.com/in/vishwas-sharma-b88433203/" target="_blank"><img src={LinkedIn} alt=""/></a>
