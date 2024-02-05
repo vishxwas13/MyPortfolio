@@ -25,7 +25,7 @@ function Intro(props) {
                <div className="intro-icons">
                  <a href="https://github.com/vishxwas13" target='_blank'><img src={Github} alt=""/></a>
                  <a href="https://www.linkedin.com/in/vishwas-sharma-b88433203/" target="_blank"><img src={LinkedIn} alt=""/></a>
-                 <a href="https://www.instagram.com/vishxwas.13/" target='_blank'><img src={Instagram} alt=""/></a>
+                 <a href="https://www.instagram.com/vishxwas/" target='_blank'><img src={Instagram} alt=""/></a>
                </div>  
       </div>
       <div className="right-intro">
