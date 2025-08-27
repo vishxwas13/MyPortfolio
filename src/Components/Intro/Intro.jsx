@@ -40,7 +40,7 @@ function Intro(props) {
       </div>
       <div className="floating-div figma-float2" style={{position:'absolute',top:'46.4%',left:'45%'}}>
         <img src={scaler} alt=""/>
-        <span style={{color: props.currTheme? 'black':'revert'}}>TCW Intern <br/> at Scaler</span>
+        <span style={{color: props.currTheme? 'black':'revert'}}>Software Engineer <br/> at SHL</span>
       </div>
       <a href="https://www.linkedin.com/feed/update/urn:li:activity:6970333836551303168/" target='blank_'>
       <div className="floating-div figma-float" id='figma' style={{position:'absolute',top:'80%',left:'80%'}}>
